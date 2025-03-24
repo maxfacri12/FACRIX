@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00d4ff;
+}
+
+/* Banner / Presentación */
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #111 0%, #222 100%);
+}
+
+.banner h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+.banner p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 10px auto;
+    opacity: 0.8;
+}
+
+/* Secciones de productos */
+.category {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.category h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #00d4ff;
+    border-bottom: 2px solid #00d4ff;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: cyan;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
